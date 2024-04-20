@@ -1,5 +1,7 @@
-const multiplication = (num1, num2) => {
-  console.log(num1 * num2)
+const multiplication = (num) => {
+  return num * num;
 }
 
-multiplication(10, 10);
+const result = multiplication(10);
+
+console.log(result);
